@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --clr-dark: #0f172a;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
+}
+
+/* *,
+*::before,
+*::after{
+    box-sizing: border-box;
+} */
+
+body {
+  /* line-height: 1.6;
+    word-spacing: 1.4px;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 607px;
+  background-color: var(--clr-light);
+}
+.container {
+  width: 80%;
+  height: 560px;
+  margin: 0 auto;
+  border: 10px solid var(--clr-dark);
+}
+.item {
+  width: 125px;
+  height: 125px;
+  background-color: #fb7185;
+  padding: 1em;
+  font-weight: 700;
+  color: var(--clr-light);
+  text-align: center;
+  border: 10px solid var(--clr-accent);
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  /* By default */
+  /* flex-direction: row;  */
+  /* flex-direction:column; */
+  /* *************************************************** */
+
+  /* justify-content  alingn items on the main axis */
+  /* the justify-content property align items horizontally*/
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* ****************************************************** */
+
+  /* align-items  align items on the cross axis */
+  /* the align-items property aligns items vertically. */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  /* ****************************************************** */
+
+  /* flex-wrap propery  */
+  /* Definition:used to specify whether flex items are forced into a single line or wrapped onto multiple lines. */
+  /* create multiple items and check */
+  /* by default the flex-wrap  is no-wrap */
+  /* flex-wrap: nowrap ; */
+  /* flex-wrap: wrap; */
+  /* ****************************************************** */
+
+  /* when we set flex-wrap:wrap a new property is unlocked align-content */
+  /* This will align everything on the cross axis */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+  /* ****************************************************** */
+
+  /* gap property to ad gap between each item  */
+  /* gap: 1em; */
+}
+/* to test the basline in align-items property  */
+/* .item-1{
+    font-size: 1.5rem;
+} */
+/* ############################################ */
+
+/* flex-grow property  */
+/* it takes the unitless value that serves as a proportion and allow the item to grow if there's enough space for it.*/
+/* 
+ .item-1{
+    flex-grow: 1;
+}
+.item-2{
+    flex-grow: 1;
+}
+.item-3{
+    flex-grow: 1;
+}  */
+/* ########################################## */
+
+/* flex-shrink */
+.item-1 {
+  /* it also takes the unitless value, though defines how fast one item shrinks in comparision to the others */
+  /* if we give flex-shrink as 0 is refeused to shrink  resize the browser to see the change */
+  /* flex-shrink: 5; */
+  /* flex-shrink: 0;  */
+}
+/* ########################################## */
+
+/* flex-basis */
+.item-1 {
+  /* flex basis define the size of the item before the remaining space is distriubuted basically,if the item has already the size as width but you want to overwrite the size with something else then we use flex basis */
+  /* flex-basis: 200px; */
+}
+/* ########################################## */
+
+/* shortand property for flex,basis,shrink and grow */
+.item-1 {
+  /* One value, unitless number: flex-grow
+       flex-basis is then equal to 0. */
+  /* flex:1; */
+
+  /* Two values: flex-grow | flex-basis */
+  /* flex: 1 30px; */
+
+  /* Two values: flex-grow | flex-shrink */
+  /* flex: 2 2; */
+
+  /* Three values: flex-grow | flex-shrink | flex-basis */
+  /* flex: 1 1 200px; */
+}
+/* ########################################## */
+
+/* align-self */
+/* to align individual  items use align-self property*/
+.item-1{
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* align-self: center; */   
+}
+
+/* order */
+/* we can change the order of the item by using the order  */
+.item-1{
+    order: 3;
+    background-color: yellow;
+    color: #0f172a;
+}
+.item-2{
+    order: 2;
+    background-color: aqua;
+    color: #0f172a;
+}
+
+.item-3{
+    order: 1;
+    background-color: greenyellow;
+    color: #0f172a;
+}
