@@ -1,4 +1,4 @@
-# CSS Property Documentation <img src="./Flexbox/Img/css.svg" width="100px" height="90px">
+# CSS Property Documentation <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40">
 
 Welcome to the CSS Property Documentation repository! In this repository, you will find detailed documentation on various CSS properties. Whether you're a beginner looking to learn CSS or an experienced developer looking for a quick reference, this documentation should be helpful to you.
 
