@@ -7,7 +7,8 @@
 :root {
   --clr-dark: #0f172a;
   --clr-light: #f1f5f9;
-  --clr-accent: #e11d48;
+  /* --clr-accent: #e11d48; */
+  --clr-accent: #009688;
 }
 
 /* *,
@@ -41,13 +42,15 @@ body {
 .item {
   width: 125px;
   height: 125px;
-  background-color: #fb7185;
+  background-color: #FFC107;
   padding: 1em;
   font-weight: 700;
   color: var(--clr-light);
   text-align: center;
   border: 10px solid var(--clr-accent);
   border-radius: 10px;
+  color:black;
+  line-height: 54px;
 }
 
 .container {
@@ -159,7 +162,7 @@ body {
 
 /* order */
 /* we can change the order of the item by using the order  */
-.item-1{
+/* .item-1{
     order: 3;
     background-color: yellow;
     color: #0f172a;
@@ -174,4 +177,4 @@ body {
     order: 1;
     background-color: greenyellow;
     color: #0f172a;
-}
+} */

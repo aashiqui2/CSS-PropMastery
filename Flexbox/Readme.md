@@ -14,6 +14,8 @@
    }
    ```
 
+ <img src="./Img/2.png" width="700px" height="400px">
+
 3. **Flex Direction**: By default, items in a flex container will be laid out in a row. You can change the direction using the `flex-direction` property:
 
    ```css
