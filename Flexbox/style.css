@@ -62,6 +62,10 @@ body {
   /* flex-direction:column-reverse; */
   /* *************************************************** */
 
+  /* another shorthand property for flex-direction and flex-wrap*/
+  /* flex-flow:row-reverse wrap */
+
+
   /* justify-content  align items on the main axis */
   /* the justify-content property align items horizontally*/
   /* justify-content: flex-start; */
