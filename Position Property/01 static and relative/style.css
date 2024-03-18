@@ -1,0 +1,7 @@
+.item-1 {
+  /*by default */
+  /* position:static; */ 
+  position: relative;
+  top: 100px;
+  left: 100px;
+}

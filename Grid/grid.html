@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper > div{
+            background-color: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background-color: #ddd;
+        }
+
+        .wrapper{
+            display: grid;
+            /* grid-template-columns: 40% 30% 30%; */
+            grid-template-columns: 70% 30% ;
+            /* grid-column-gap:1em;
+            grid-row-gap: 1em; */
+            /* shorthand property for gap  */
+            grid-gap: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptatem corporis tenetur, aliquam omnis porro qui hic, eum provident earum repellat rerum iusto sit animi alias doloremque perferendis quod sequi! Repellendus atque repudiandae neque sequi? Voluptas minus tempore velit commodi placeat ipsa natus quo, molestias impedit consectetur eligendi eaque itaque doloribus neque ex esse totam tenetur! Quas, nostrum? Tenetur quae temporibus fugiat optio voluptate voluptatum aspernatur officiis, corporis quasi voluptas obcaecati quos, quod iste vero, repellat cupiditate fugit distinctio iure.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem omnis unde assumenda deserunt pariatur, voluptate qui repellat minima quo error eos rem fugit vitae voluptates? Iste suscipit nisi rerum nesciunt.</div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptatem corporis tenetur, aliquam omnis porro qui hic, eum provident earum repellat rerum iusto sit animi alias doloremque perferendis quod sequi! Repellendus atque repudiandae neque sequi? Voluptas minus tempore velit commodi placeat ipsa natus quo, molestias impedit consectetur eligendi eaque itaque doloribus neque ex esse totam tenetur! Quas, nostrum? Tenetur quae temporibus fugiat optio voluptate voluptatum aspernatur officiis, corporis quasi voluptas obcaecati quos, quod iste vero, repellat cupiditate fugit distinctio iure.
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem omnis unde assumenda deserunt pariatur, voluptate qui repellat minima quo error eos rem fugit vitae voluptates? Iste suscipit nisi rerum nesciunt.</div>
+        
+    </div>
+    
+</body>
+</html>

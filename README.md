@@ -30,6 +30,7 @@ Below is a list of CSS properties currently documented in this repository:
 
 - `FlexBox`: [Link to documentation](https://github.com/aashiqui2/CSS-PropMastery/tree/master/Flexbox) 
 - `Grid`: [Link to documentation](#)
+- `Position Property`: [Link to documentation](#) 
 <!-- - `property3`: [Link to documentation](#) -->
 
 
