@@ -1,0 +1,64 @@
+ /* to remove the default stylsheet supported by the browser supported  */
+/* this is the proper way to give the box sizing as borderbox */
+        *,
+        *::before,
+        *::after{
+            box-sizing: border-box;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+
+        }
+        .box{
+            font-size: 2rem;
+            background-color: pink;
+            /* BOX MODAL */
+            width: 300px;
+            height: 100px;
+            padding: 32px 64px 100px 10px;
+            border: 5px solid black;
+            margin: 0;
+            /* useragent stylesheet are the browser default stylsheet the browser automatically assign to the html element.  */
+            /* box-sizing: content-box; */
+
+
+
+
+
+
+
+
+
+
+
+            /* padding-top: 32px;
+            padding-right:32px ;
+            padding-bottom: 32px;
+            padding-left: 32px; */
+            /* Shorthand Property */
+            /* top and bottom */
+            /* padding: 32px 64px; */
+            /* top left and right  bottom */
+            /* padding: 32px 64px 100px; */
+            /* top right bottom left */
+            /* padding: 32px 64px 100px 10px; */
+
+            /* size style color */
+            /* border: 5px solid black; */
+
+            /* margin-top: 20px;
+            margin-right:20px ;
+            margin-bottom:20px ;
+            margin-left:20px; */
+            /* shortand property */
+            /* margin:20px; */
+            /* top and bottom   left and right */
+            /* margin: 20px 40px; */
+         /* top  left and right  bottom */
+            /* margin: 32px 64px 100px; */
+            /* top right bottom left */
+            /* margin: 32px 64px 100px 10px; */
+
+        }

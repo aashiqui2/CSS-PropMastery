@@ -28,6 +28,7 @@ Each CSS property documentation is organized in a consistent format for ease of 
 
 Below is a list of CSS properties currently documented in this repository:
 
+- `Box-Modal`: [Link to documentation](#) -->
 - `FlexBox`: [Link to documentation](https://github.com/aashiqui2/CSS-PropMastery/tree/master/Flexbox) 
 - `Grid`: [Link to documentation](#)
 - `Position Property`: [Link to documentation](#) 

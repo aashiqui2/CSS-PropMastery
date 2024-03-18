@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid</title>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS Grid</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
     <div class="container">
-        <div class="item item-1">1</div>
-        <div class="item item-2">2</div>
-        <div class="item item-3">3</div>
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-3">3</div>
+      <!-- if you add another item in html despite not having any room left our grid added a new row for item-4. -->
+      <!-- when the items are added outside of a explicitly defined grid this is refered to as an implicit grid.-->
+      <!-- notice how item 4 is smaller than the others that because the implicit grid doesn't inherit the values that we set in the grid template rows and grid template columns properties -->
+
+      <!-- we can use grid-auto-rows  property on our container, what this does is set the size of the rows on any implicit grid that gets whne i created set it to 100 pixels, now our implicit grid has a row of 100 pixels. -->
+      <!-- By default our implicit grid added a row but we can change this grid autoflow property and set it to column -->
+      <!-- now any implicit grid that gets created will be created as a column instead with column being the new default for our implicit grids we can use  grid auto columns to define the size of those columns and set it to 100px  -->
+      <div class="item item-4">4</div>
     </div>
-</body>
+  </body>
 </html>
